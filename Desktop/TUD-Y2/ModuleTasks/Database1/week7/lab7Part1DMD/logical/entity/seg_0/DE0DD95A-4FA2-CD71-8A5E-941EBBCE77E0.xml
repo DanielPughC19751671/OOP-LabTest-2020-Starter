@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE0DD95A-4FA2-CD71-8A5E-941EBBCE77E0" name="JohnSmith">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:06:00 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<engineerTo>
+<item key="E84DC5A7-36B2-E6B9-B0BA-B87D63D719E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StyleID" id="30DF86A9-B40A-5A69-20A4-0044C6CBDE88">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:07:10 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<engineerTo>
+<item key="E84DC5A7-36B2-E6B9-B0BA-B87D63D719E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20CC3EF9-FF2F-F676-D891-ECB1BADB6C34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StyleDesc" id="CD031B22-6F1B-8D7F-3508-BD3902A2C605">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:08:09 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<engineerTo>
+<item key="E84DC5A7-36B2-E6B9-B0BA-B87D63D719E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EF29E214-55A7-D399-2581-F4FA59E7C4EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StyleID1" id="C3697E14-8301-A332-8A7C-BB40663B3862">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:13:28 UTC</createdTime>
+<generatorID>DC31EFA0-1A4E-8C17-2B0A-E3DAB4ED78DF</generatorID>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<engineerTo>
+<item key="E84DC5A7-36B2-E6B9-B0BA-B87D63D719E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>30DF86A9-B40A-5A69-20A4-0044C6CBDE88</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20CC3EF9-FF2F-F676-D891-ECB1BADB6C34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57FB731D-FAF0-78FB-728F-31EDE020452A" name="JohnSmith PK">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:09:21 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<engineerTo>
+<item key="E84DC5A7-36B2-E6B9-B0BA-B87D63D719E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30DF86A9-B40A-5A69-20A4-0044C6CBDE88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

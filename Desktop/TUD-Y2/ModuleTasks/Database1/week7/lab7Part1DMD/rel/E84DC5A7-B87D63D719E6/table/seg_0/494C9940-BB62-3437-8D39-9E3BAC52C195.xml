@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="494C9940-BB62-3437-8D39-9E3BAC52C195" name="CustLikesStyle">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:17:28 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JohnSmith_StyleID" id="9D36CB51-8770-3E8F-F364-F672564C6F63">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:17:28 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20CC3EF9-FF2F-F676-D891-ECB1BADB6C34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="101DEC75-E532-CA14-5A5B-02FE098581D4" referredColumn="9545BB44-3598-4D78-B46A-534CA914BABF"/>
+</associations>
+</Column>
+<Column name="JohnSmith_StyleID1" id="E21D1385-EC16-BE9D-1ECC-986166D9738B">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:17:28 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20CC3EF9-FF2F-F676-D891-ECB1BADB6C34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39B28681-0AF7-2CC9-B566-53670D02750F" referredColumn="9545BB44-3598-4D78-B46A-534CA914BABF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCBF1D23-E4EE-96DD-B5B8-0EC038452A46" name="CustLikesStyle_PK">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:17:28 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D36CB51-8770-3E8F-F364-F672564C6F63"/>
+<colUsage columnID="E21D1385-EC16-BE9D-1ECC-986166D9738B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA75EDCF-C390-8100-A15D-0505861CD9DE" name="CustLikesStyle_JohnSmith_FK">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:17:28 UTC</createdTime>
+<generatorID>68C975E4-F548-2924-7303-A2185FD00D20</generatorID>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D36CB51-8770-3E8F-F364-F672564C6F63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BFE03C4-7AC8-9E57-6F9C-0AC543193BAA" name="CustLikesStyle_JohnSmith_FKv1">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:17:28 UTC</createdTime>
+<generatorID>68C975E4-F548-2924-7303-A2185FD00D20</generatorID>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E21D1385-EC16-BE9D-1ECC-986166D9738B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

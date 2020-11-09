@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CustLikesStyle" directorySegmentName="seg_0" id="68C975E4-F548-2924-7303-A2185FD00D20">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:14:23 UTC</createdTime>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<engineerTo>
+<item key="E84DC5A7-36B2-E6B9-B0BA-B87D63D719E6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DE0DD95A-4FA2-CD71-8A5E-941EBBCE77E0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE0DD95A-4FA2-CD71-8A5E-941EBBCE77E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

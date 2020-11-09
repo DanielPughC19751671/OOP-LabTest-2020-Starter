@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="101DEC75-E532-CA14-5A5B-02FE098581D4" containerWithKeyObject="494C9940-BB62-3437-8D39-9E3BAC52C195" localFKIndex="FA75EDCF-C390-8100-A15D-0505861CD9DE" name="CustLikesStyle_JohnSmith_FK">
+<createdBy>c19751671</createdBy>
+<createdTime>2020-11-09 21:17:28 UTC</createdTime>
+<generatorID>68C975E4-F548-2924-7303-A2185FD00D20</generatorID>
+<ownerDesignName>lab7Part1DMD</ownerDesignName>
+<referredTableLongName>JohnSmith</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F2FA86C-296B-A5C9-2EC0-65801C425CC8</referredTableID>
+<keyObject>10FB1AF1-59D9-DBC1-3C7F-7198CCDA839A</keyObject>
+<referredKeyID>10FB1AF1-59D9-DBC1-3C7F-7198CCDA839A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>StyleID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
