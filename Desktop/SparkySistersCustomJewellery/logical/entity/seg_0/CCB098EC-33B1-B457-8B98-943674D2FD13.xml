@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCB098EC-33B1-B457-8B98-943674D2FD13" name="Designer">
+<createdBy>c19751671</createdBy>
+<createdTime>2021-01-08 10:23:52 UTC</createdTime>
+<ownerDesignName>SparkySistersCustomJewellery</ownerDesignName>
+<engineerTo>
+<item key="B1E1DC87-D234-F1A4-FE31-29A9839685A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="designer_Id" id="313C905B-6109-BBD0-26A9-7D6B2FE1DDCC">
+<createdBy>c19751671</createdBy>
+<createdTime>2021-01-08 10:24:22 UTC</createdTime>
+<ownerDesignName>SparkySistersCustomJewellery</ownerDesignName>
+<engineerTo>
+<item key="B1E1DC87-D234-F1A4-FE31-29A9839685A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D38C56D7-3001-12F2-60A6-049548D5B704</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="designer_Name" id="023761BD-427D-DAFB-7543-B7CC67C95017">
+<createdBy>c19751671</createdBy>
+<createdTime>2021-01-08 10:24:41 UTC</createdTime>
+<ownerDesignName>SparkySistersCustomJewellery</ownerDesignName>
+<engineerTo>
+<item key="B1E1DC87-D234-F1A4-FE31-29A9839685A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A3216036-2E5F-7C1C-30F8-28AAD95A6375</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="designer_PayRate" id="AA518FDC-3948-C658-E35D-CEF2B58EACB5">
+<createdBy>c19751671</createdBy>
+<createdTime>2021-01-08 10:31:23 UTC</createdTime>
+<ownerDesignName>SparkySistersCustomJewellery</ownerDesignName>
+<engineerTo>
+<item key="B1E1DC87-D234-F1A4-FE31-29A9839685A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>9BA4FBF9-DB24-0458-802C-8F33550DF802</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="designer_Email" id="6BE811D2-2A50-59D0-A89C-A5D643B72431">
+<createdBy>c19751671</createdBy>
+<createdTime>2021-01-08 10:48:34 UTC</createdTime>
+<ownerDesignName>SparkySistersCustomJewellery</ownerDesignName>
+<engineerTo>
+<item key="B1E1DC87-D234-F1A4-FE31-29A9839685A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9C364AD7-D1B4-B108-679B-05EA62EB1A04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15CF43F5-AA68-2314-456D-F775057933F1" name="Designer PK">
+<createdBy>c19751671</createdBy>
+<createdTime>2021-01-08 10:24:39 UTC</createdTime>
+<ownerDesignName>SparkySistersCustomJewellery</ownerDesignName>
+<engineerTo>
+<item key="B1E1DC87-D234-F1A4-FE31-29A9839685A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>313C905B-6109-BBD0-26A9-7D6B2FE1DDCC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

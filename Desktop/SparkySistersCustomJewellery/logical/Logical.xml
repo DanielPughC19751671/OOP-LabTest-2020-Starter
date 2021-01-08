@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="823730B9-C790-F391-3B06-B28645BBDDE4" mainViewID="8F72DF74-2597-9B46-08EE-ADE08683B12B">
+<createdBy>c19751671</createdBy>
+<createdTime>2021-01-08 09:48:09 UTC</createdTime>
+<ownerDesignName>SparkySistersCustomJewellery</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

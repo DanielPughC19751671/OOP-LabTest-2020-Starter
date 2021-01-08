@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="deisgner_signature" directorySegmentName="seg_0" id="3DBA8086-1B84-C3D7-6D5F-1DC589B5C39C">
+<createdBy>c19751671</createdBy>
+<createdTime>2021-01-08 11:04:37 UTC</createdTime>
+<ownerDesignName>SparkySistersCustomJewellery</ownerDesignName>
+<engineerTo>
+<item key="B1E1DC87-D234-F1A4-FE31-29A9839685A3" value="true"/>
+</engineerTo>
+<sourcePk>15CF43F5-AA68-2314-456D-F775057933F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CCB098EC-33B1-B457-8B98-943674D2FD13</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FBEE6A70-15ED-9A94-0141-C1896AABF2D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
